@@ -1,0 +1,105 @@
+[
+   {
+     "id": 1,
+     "name": "Pain",
+     "price": 10.99,
+     "imgUrl": "/imgs/b.jpg"
+   },
+   {
+     "id": 2,
+     "name": "Brioche",
+     "price": 11,
+     "imgUrl": "/imgs/zo.jpg"
+   },
+   {
+     "id": 3,
+     "name": "Baghrir",
+     "price": 1.05,
+     "imgUrl": "/imgs/bgh.jpg"
+   },
+   {
+     "id": 4,
+     "name": "Pain suisse",
+     "price": 10,
+     "imgUrl": "/imgs/brioche.jpg"
+   },
+   {
+    "id": 5,
+    "name": "Croissant en nutella ",
+    "price": 8,
+    "imgUrl": "/imgs/ch.jpg"
+  }
+  ,
+  {
+   "id": 6,
+   "name": "Croissant",
+   "price": 9,
+   "imgUrl": "/imgs/cr.jpg"
+ }
+ ,
+ {
+  "id": 7,
+  "name": "Cake",
+  "price": 19,
+  "imgUrl": "/imgs/gt.jpg"
+}
+,
+   {
+    "id": 8,
+    "name": "Gateau Glacee",
+    "price": 20,
+    "imgUrl": "/imgs/h.jpg"
+  }
+  ,
+   {
+    "id": 9,
+    "name": "Pain cake",
+    "price": 5,
+    "imgUrl": "/imgs/ha.jpg"
+  }
+  ,
+   {
+    "id": 10,
+    "name": "Croissant",
+    "price": 21.00,
+    "imgUrl": "/imgs/jp.jpg"
+  }
+  ,
+
+  {
+   "id": 12,
+   "name": "Birthady cake",
+   "price": 14000,
+   "imgUrl": "/imgs/s.jpg"
+ }
+ ,
+   {
+    "id": 13,
+    "name": "Chnik",
+    "price":19.00,
+    "imgUrl": "/imgs/sui.jpg"
+  }
+  ,
+   {
+    "id": 14,
+    "name": "Birthady cake",
+    "price": 21,
+    "imgUrl": "/imgs/t.jpg"
+  },
+  
+ 
+   {
+    "id": 17,
+    "name": "Croissant en chocolat",
+    "price": 13.05,
+    "imgUrl": "/imgs/vc.jpg"
+  }
+  ,
+   {
+    "id": 18,
+    "name": "Mini desserts",
+    "price": 15,
+    "imgUrl": "/imgs/x.jpg"
+  }
+  
+  ]

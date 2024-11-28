@@ -1,0 +1,12 @@
+body{
+   position:relative ;
+   top:  100px;
+}
+.text{
+   text-align: left;
+   margin-left: 120px;
+   margin-bottom: 10px;
+   font-size: 25px;
+   font-weight: bold;
+   
+}

@@ -1,0 +1,84 @@
+
+
+body{
+  width: 100vw; /* Utilisez vw pour occuper toute la largeur de la fenêtre */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ 
+
+ 
+}
+
+nav{
+  height: 60px;
+  background-color: rgb(231, 223, 223);
+  box-shadow: 0px 0px 2px rgba(27, 27, 27, 0.422);
+}
+h2{
+  color: black;
+  position: relative;
+  bottom: 10px;
+ 
+}
+#itm{
+  color: rgb(224, 156, 72);
+  font-size: 45px;
+ 
+}
+li{
+  margin-left: 100px;
+
+  position: relative;
+  left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  position: relative;
+  top: 10px;
+}
+span{
+  font-size: 23px;
+}
+span:hover{
+  color:  rgb(224, 156, 72);
+}
+#log{
+  border: solid 2px  rgb(224, 156, 72);
+  background-color: rgb(255, 249, 239);
+  margin-bottom: 30px;
+  width: 110px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  box-shadow: 0px 0px 10px rgba(183, 183, 183, 0.511);
+  position: relative;
+  left: 80px;
+  border-radius: 3px;
+}
+#sign{
+  border: solid 2px  rgb(250, 245, 236);
+  background-color: rgb(222, 168, 101) ;
+  margin-bottom: 30px;
+  width: 180px;
+  text-align: center;
+  font-weight: bolder;
+  position: relative;
+  font-size: 15px;
+  right:50px;
+  box-shadow: 0px 0px 10px rgba(148, 142, 147, 0.422);
+  border-radius: 3px;
+  
+}
+#sign:hover{
+  background-color: rgb(255, 249, 239);
+  border: solid 2px  rgb(224, 156, 72);
+}
+#links{
+   color: black;
+  text-decoration: underline 3px    rgb(0, 0, 0)  ;
+}
+
+#links:hover{
+  text-decoration: underline 3px rgb(224, 156, 72) ;
+  transition: 0,2s;
+}

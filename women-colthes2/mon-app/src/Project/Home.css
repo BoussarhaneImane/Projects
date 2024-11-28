@@ -1,0 +1,382 @@
+body{
+   background-color: rgb(255, 255, 254);
+}
+
+.container-vd{
+  
+   position: relative;
+   top: 40px;
+ }
+ 
+#vd{
+width: 100%;
+height: 450px; /* Hauteur fixe de 100 pixels */
+object-fit: cover; 
+
+filter: blur(2px) ;
+ }
+ h1{
+   position: relative;
+   bottom: 400px;
+   left: 150px;
+   color: rgb(35, 32, 32);
+   font-size: 30px;
+ }
+ h3{
+   position: relative;
+   bottom: 360px;
+   left: 150px;
+   color: rgb(35, 32, 32);
+   font-size: 20px;
+   font-family:initial
+
+ }
+ .btn-to-chat{
+   position: relative;
+   bottom: 300px;
+   left: 250px;
+ }
+ .btn-to-chat a{
+   text-decoration: none;
+   color: white;
+   font-size: 20px;
+ }
+ .btn-to-chat a:hover{
+   color: black;
+ }
+ .btn-to-chat button{
+   
+   border: none;
+   padding: 10px;
+   width: 350px;
+   border-radius: 2px;
+   box-shadow: 0px 0px 10px rgba(44, 44, 44, 0.422);
+   letter-spacing: 5px;
+   background-color:  rgb(198, 142, 75);
+  
+ }
+ .btn-to-chat button:hover{
+   letter-spacing: 5px;
+   color: black;
+   background-color: gray;
+ }
+p{
+   position: relative;
+   bottom: 180px;
+   font-size: 28px;
+   left: 560px;
+  
+
+} 
+#holf hr{
+   border-bottom: 2px solid  ;
+   position: relative;
+   bottom: 180px;
+
+}
+.card-container{
+   display: flex;
+   flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si l'espace est insuffisant */
+   justify-content: flex-start; /* Alignement à gauche des cartes */
+   height: 100px;
+  
+ }
+ .card{
+   position: relative;
+   bottom: 160px;
+  width: 370px;
+  height: 550px;
+  margin-left: 60px;
+  padding: 5px;
+  border: solid 1px  rgb(198, 142, 75);
+  box-shadow: 0px 0px 10px rgba(162, 156, 156, 0.422);
+
+ }
+
+ .card img{
+   height:250px;
+  
+ }
+
+ .card-body h1{
+  position: relative;
+  bottom: 39px;
+  left: 60px;
+  font-size: 18px;
+  background-color: rgb(229, 154, 78);
+  padding-left: 6px;
+  width: 40px;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0px 0px 10px rgba(156, 152, 152, 0.422);
+ }
+ .card-body span{
+   position: relative;
+   bottom:15px ;
+    
+   font-family: sans-serif;
+   font-size: 18px;
+   
+  }
+  .card-body #hr{
+   position: relative;
+   bottom:35px ;
+  }
+ .card label{
+   font-size: 18px;
+   font-family: sans-serif;
+ }
+
+ .card h4{
+   position: relative;
+   left: 220px;
+   bottom: 23px;
+ }
+ .card-text{
+   font-size: 17px;
+   position: relative;
+   bottom: 35px;
+   font-family:sans-serif;
+ }
+ .card  button{
+ border: none;
+ border-radius: 20px;
+ background-color:  rgb(215, 146, 62);
+ position: relative;
+ left: 180px;
+ bottom: 50px;
+ box-shadow: 0px 0px 10px rgba(156, 152, 152, 0.422);
+ }
+ .card button a{
+   font-size: 17px;
+   font-family: sans-serif;
+   color: white;
+ }
+
+ 
+ .Description h1{
+   padding-bottom: 40px;
+   margin-top: 300px;
+   margin-right: 1000px;
+
+   position: relative;
+   left: 120px;
+ }
+
+
+ .Description h1::after{
+   position: absolute;
+
+     right: -10px;
+     left: -60px;
+     bottom: 50px;
+   content: "";
+  
+   background-color: #000000;
+   width: 10px;
+   height: 60px;
+ }
+
+ .Description h1 span{
+   color:  rgb(215, 146, 62);
+ }
+ .Description p{
+   position: relative;
+  bottom:  420px;
+  left: 80px;
+  font-size: 17px;
+  font-family: sans-serif;
+  background-color: rgb(245, 240, 229) ;
+  width: 800px;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(153, 152, 152, 0.422);
+  color: black;
+ }
+ .Description h5{
+   position: relative;
+   bottom: 400px;
+   left: 140px;
+   font-size: 16px;
+   color: #5b5a5a;
+
+ }
+ .vd2{
+   box-shadow: 0px 0px 10px rgba(248, 162, 48, 0.488);
+    width: 400px;
+   position: relative;
+   left: 920px;
+   bottom: 680px;
+   border-radius: 2px;
+
+ }
+
+ .cousoule{
+   width: 600px;
+   height: 600px;
+   position: relative;
+   top: 300px;
+   left: 300px;
+
+ }
+ .grp-coursoule{
+   position: relative;
+   top: 470px;
+   right:  200px;
+   border-radius: 10px;
+  
+ }
+.Produits{
+  position: relative;
+  top: 770px;
+  left: 100px;
+  box-shadow: 0px 0px 5px rgba(94, 93, 91, 0.488);
+  width:1400px;
+  height: 70px;
+  padding-left: 580px;
+
+} 
+.Produits span{
+  color: rgb(215, 146, 62);
+ 
+}
+#truc{
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: rgb(215, 146, 62);
+ 
+}
+.Ronds {
+  display: flex;
+  flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si l'espace est insuffisant */
+  justify-content: flex-start;
+}
+
+.Ronds img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  margin-left: 20px; 
+  position: relative;
+  left: 720px;
+  top: 250px;
+  box-shadow: 0px 0px 10px rgba(252, 177, 27, 0.914);
+  border: solid 1px black;
+ 
+
+}
+#exp{
+  box-shadow: 0px 0px 5px rgba(105, 104, 103, 0.463);
+  transform:scale3d(1.2);
+}
+.Ronds img:hover {
+
+  cursor: pointer;
+  box-shadow: 0px 0px 5px rgba(105, 104, 103, 0.463);
+  transform: scale(1.2);
+ 
+
+}
+
+.Ronds h3{
+ position: relative;
+ top: 500px;
+ left: 250px;
+ font-family: sans-serif;
+ color: black;
+letter-spacing: 2px;
+}
+.Ronds button{
+  position: relative;
+ top: 400px;
+ left: 810px;
+ border: none;
+ width: 400px;
+ height: 60px;
+ background-color:  rgb(79, 75, 70) ;
+ font-family: sans-serif;
+ font-size: 18px;
+ color:white;
+ border-radius: 5px;
+ transition: background-color 0.3s;
+}
+
+.Ronds button:hover {
+  background-color:rgb(222, 156, 74); /* Change la couleur de fond au survol */
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 15px;
+  font-family: sans-serif;
+ 
+}
+
+footer{
+ 
+  display: flex;
+  flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si l'espace est insuffisant */
+  justify-content: flex-start;
+  background-color:  rgb(79, 75, 70)  ;
+  margin-top: 570px;
+  height: 500px;
+  box-shadow: 0px 0px 20px rgba(230, 170, 4, 0.861); 
+ 
+}
+footer div{
+  margin-top: 50px;
+  margin-left: 100px;
+  color: white;
+}
+footer h2{
+  font-size: 18px;
+}
+footer .liens{
+  color: white;
+  font-size: 18px;
+}
+footer .liens a{
+  color: white;
+  margin-top: 80px;
+
+  text-decoration: none;
+  text-decoration: underline 2px rgb(222, 156, 74); 
+
+}
+
+footer .trucs h2{
+  position: relative;
+  left: 100px;
+}
+
+footer .trucs li{
+  list-style: none;
+ color: rgb(222, 156, 74) ;
+}
+
+
+footer .medias h2 {
+  position: relative;
+  left: 100px;
+}
+footer .medias li{
+  list-style: none;
+  margin-top: 10px;
+ 
+
+}
+.medias h6{
+  color: rgb(222, 156, 74);
+}
+footer .medias li .itm{
+  font-size: 30px;
+  transition: color 0.3s;
+ 
+}
+.itm:hover{
+  color: rgb(222, 156, 74);
+  cursor: pointer;
+}
+footer .map iframe {
+  width: 300px;
+  height: 220px;
+  box-shadow: 0px 0px 5px rgba(214, 213, 212, 0.635); 
+}

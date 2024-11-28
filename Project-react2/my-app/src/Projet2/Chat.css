@@ -1,0 +1,165 @@
+body{
+  background-color: rgb(242, 242, 242);
+}
+
+#div-grd {
+  background: linear-gradient(to right, #190019, #FBE4DB);
+  
+   height: 210px;
+   width: 1400px; 
+position: relative;
+right: 20px;
+bottom: 50px; 
+color: white;
+position: relative;
+bottom: 1px;
+}
+
+
+
+#div-grd h1{
+   margin-left: 90px;
+   position: relative;
+   top: 20px;
+   font-family: sans-serif;
+   font-size: 60px;
+}
+#div-grd h3{
+   position: relative;
+   top: 17px;
+   left: 100px;
+   font-family: sans-serif;
+}
+
+#div-grd button{
+   position: relative;
+   bottom: 60px;
+   left: 80px;
+   border: none;
+   font-family: sans-serif;
+   background-color: #bda3a1;
+   border-radius:20px;
+   box-shadow: 0 3px 20px rgba(18, 17, 18, 0.377);
+   transition: background-color  0.5s ;
+   cursor: pointer;
+   padding: 10px;
+   color: #190019;
+}
+#div-grd img{
+   width: 250px;
+   height: 208px;
+   position: relative;
+   left: 700px;
+   bottom: 120px;
+ 
+}
+
+.data-container {
+  
+   padding: 10px; 
+   display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-gap: 10px; 
+  position: relative;
+   bottom: 20px;
+
+ }
+ 
+ .data-container img {
+
+   height: auto;
+  /* Adjust margin as needed */
+  position: relative;
+  left: 30px;
+
+  box-shadow: 0 2px 5px #00000027;
+  transform:scale3d(1.05);
+  cursor: pointer;
+
+  
+ 
+ }
+ .data-container img:hover {
+   transform: scale(1.05);
+
+ }
+
+ 
+ 
+ 
+
+ .data-container h6 {
+  text-align: center;
+  margin-left: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 8px;
+ }
+
+ .data-container h5{
+  
+   margin-left: 230px;
+ position: relative;
+ bottom: 15px;
+   font-family: sans-serif;
+  
+  }
+  .Star{
+   color: rgb(255, 177, 60);
+   position: relative;
+   top: 5px;
+   left: 40px;
+  }
+ .Search-input{
+   border: none;
+   font-size: 17px;
+   margin-top: 10px;
+   border: solid 1px rgb(161, 35, 161);
+   width: 300px;
+   padding: 10px;
+   margin-left: 980px;
+   border-radius: 30px;
+   background-color: rgba(236, 235, 235, 0.323);
+   outline: none;
+   color: rgb(131, 50, 131);
+   position: relative;
+   top: 10px;
+ }
+ .Search-input:focus{
+   border: solid 1px rgb(161, 35, 161);
+   
+ }
+ .hr-search{
+   width: 1000px;
+  margin-left: 200px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  bottom: 30px;
+ }
+
+ .Select:focus{
+   border: solid 1px rgb(161, 35, 161);
+   
+ }
+
+ #Search-btn{
+   margin-left: 870px;
+   position: relative;
+   bottom: 37px;
+   border-radius: 30px;
+   width: 100px;
+   padding: 10px;
+   font-size: 18px;
+  background-color:  rgb(204, 198, 198);
+  color: rgb(117, 29, 117);
+   transition: background-color 0.5s;
+   box-shadow: 0 5px 15px rgba(76, 74, 74, 0.151);
+   font-family: sans-serif;
+   
+}
+#Search-btn:hover{
+   background-color:  rgb(224, 219, 219);
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.151);
+  
+}
+ 

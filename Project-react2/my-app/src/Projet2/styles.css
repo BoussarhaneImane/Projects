@@ -1,0 +1,101 @@
+/* Import de la police Google Fonts Roboto */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+/* Réinitialisation du style pour le corps de la page */
+body {
+  font-family: 'Roboto', sans-serif; /* Utilisation de la police Roboto pour le corps du texte */
+  color: black;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  
+}
+#itm {
+  font-size: 70px;
+  position: relative;
+  bottom: 10px;
+  left: 20px;
+  color: #653856;
+}
+
+span{
+  color: #653856;
+  position: relative;
+  bottom: 10px;
+  left: 10px;
+}
+
+
+#links {
+  margin-top: 10px;
+  position: relative;
+  left: 150px;
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+
+#container-li {
+  color: #ffffff;
+  font-size: 20px;
+ 
+  transition: transform 0.5s;
+}
+
+#container-li:after {
+  content: "";
+  position: absolute;
+  background-color:#653856;
+  height: 3px;
+  width: 0;
+  left: 0;
+  top: 40px;
+  transition: width 0.3s; /* Changement de la propriété transition */
+}
+
+#container-li:hover:after {
+  width: 100%;
+}
+
+#sign, #log {
+  margin-top: 10px;
+  margin-right: 10px;
+  position: relative;
+  left: 320px;
+  border: solid 1px#653856;
+  background-color: #653856;
+  width: 120px;
+  height: 45px;
+  padding-left: 20px;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.151);
+  transition: background-color 0.5s;
+}
+
+#log:hover {
+  background-color: rgb(255, 254, 255);
+}
+
+#sign {
+  border: solid 1px#653856;
+  background-color: rgb(255, 255, 255);
+}
+
+#container-log {
+  color: white;
+}
+
+#container-log:hover {
+  color: #653856;
+  cursor: pointer;
+}
+
+#container-sign {
+  color: #653856;
+}
+
+#sign:hover {
+  cursor: pointer;
+  background-color: rgb(238, 229, 229);
+}

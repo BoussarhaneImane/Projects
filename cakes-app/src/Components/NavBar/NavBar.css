@@ -1,0 +1,154 @@
+/* NavBar.css */
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+
+   font-size: 25px;
+   background-color: rgb(251, 253, 255);
+   padding: 30px;
+   padding-bottom:35px;
+  height: 40px;
+   display: flex;
+   justify-content: flex-start;
+
+   
+  
+ }
+ .logo{
+  margin-top:60px;
+ }
+ #icon-cake{
+  margin-left: 110px;
+ position: relative;
+  bottom: 44px;
+  font-size: 38px;
+  color: #e43558;
+ }
+
+ .Links {
+   
+   font-family: 'Jost', sans-serif;
+   text-decoration: none; 
+   color: rgb(15, 15, 90);
+   font-size: 19px;
+ 
+
+ }
+
+ .Link{
+  color: rgb(15, 15, 90);
+  position: relative;
+  left: 10px;
+ top: 10px;
+  font-size: 19px;
+  transition: color 0.1s;
+  margin-top: 30px;
+  margin-left: 100px;
+  
+  transition:  color 0.1s;
+ }
+ #icon-login{
+ margin-top:43px;
+margin-left: 20px;
+ }
+ #icon-login:hover{
+color: #e43558;
+ }
+.Link:hover {
+   color: #e43558;
+ }
+ #lien{
+   position:relative;
+   left: 200px;
+   top: 10px;
+   margin-left: 60px;
+ }
+ #login{
+   margin-left:185px;
+   margin-top: 15px;
+ }
+ 
+ .C{
+   font-weight: bold;
+   color: #e43558;
+   font-size: 23px;
+   font-family: 'Varela Round', sans-serif;
+ }
+ 
+ 
+ 
+ .menu {
+   border: none !important;
+   outline: none !important;
+   box-shadow: none !important;
+   cursor: pointer;
+   color: rgb(15, 15, 90) ;
+ }
+ 
+ .menu:focus {
+   outline: none !important;
+   box-shadow: none !important;
+ }
+ 
+ @media (max-width: 768px) {
+   .nav {
+     flex-direction: column;
+     align-items: center;
+     padding: 0px;
+   }
+ 
+   .Links {
+     margin-left: 0;
+     margin-top: 10px;
+     font-size: 18px;
+   }
+ 
+   #lien {
+     position: static;
+     margin-top: 10px;
+   }
+ 
+ 
+ 
+   #cake {
+    
+      position: static; 
+      font-size: 35px;
+      position: relative;
+      right:75px;
+      bottom:10px ;
+   }
+ 
+   
+ }
+ .shop{
+  position: relative;
+  left: 40px;
+  font-size: 25px;
+  bottom: 28px;
+ }
+ .Link-shop{
+    position: relative;
+    bottom: 33px;
+    left: 50px;
+   
+
+   
+     
+ }
+ 
+ .cart{
+  border: solid 1px crimson;
+border-radius: 60%;
+height: 30px;
+
+ }
+ .cart:hover{
+  border: solid 1px crimson;
+  border-radius: 60%;
+  height: 35px;
+ }

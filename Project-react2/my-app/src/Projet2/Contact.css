@@ -1,0 +1,32 @@
+#div1{
+   width: 400px;
+   position: relative;
+   left: 300px;
+   top: 20px;
+
+}
+#acceptAllConditions{
+   width: 20px;
+   height: 20px;
+}
+
+#btn-submit{
+   border: none;
+  border-radius: 10px;
+   width: 300px;
+position: relative;
+bottom: 20px;
+left: 35px;
+background-color: #7b3c67;
+color:white;
+height: 50px;
+font-size: 20px;
+letter-spacing: 4px;
+transition: background-color 0.5s ;
+}
+#btn-submit:hover{
+   border: solid 1px#8b597b;
+   background-color: rgb(241, 240, 240);
+   color: #682152;
+   font-size: 20px;
+}

@@ -1,0 +1,555 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body {
+   height: 100vh;
+   padding: 0;
+   padding-bottom: 0px;
+  
+}
+
+
+
+#img1 {
+   margin-left: 680px;
+   margin-top: 70px;
+   width: 800px;
+   animation: slideDown 1.5s ease-in-out;
+}
+
+#img2 {
+   margin-left: 850px;
+   position: absolute;
+   bottom: 120px;
+   width: 390px;
+   animation: slideUp 1.5s ease-in-out;
+}
+
+@keyframes slideDown {
+   from {
+      transform: translateY(-20%);
+   }
+   to {
+      transform: translateY(0);
+   }
+}
+
+@keyframes slideUp {
+   from {
+      transform: translateY(20%);
+   }
+   to {
+      transform: translateY(0);
+   }
+}
+
+.box-left {
+   position: relative;
+   bottom: 360px;
+   left: 120px;
+}
+
+.H1 {
+   font-family: 'Jost', sans-serif;
+   font-weight: bold;
+   font-size: 40px;
+   animation: slideDown 1.0s ease-in-out;
+}
+
+.H3 {
+   font-family: 'Jost', sans-serif;
+   animation: slideUp 1.0s ease-in-out;
+}
+
+.btn-home {
+   margin-top: 50px;
+   background-color: #e43558;
+   color: rgb(252, 253, 255);
+   padding: 19px;
+   border-radius: 50px;
+   font-family: sans-serif;
+   font-size: 17px;
+   width: 200px;
+   box-shadow: 10px 0px 0px 0px rgb(6, 6, 71);
+   transition: background-color 0.5s;
+}
+
+.btn-home:hover {
+   background-color: rgb(234, 39, 78);
+}
+.order{
+ position: relative;
+ bottom: 300px;
+ margin-top: 0;
+ animation: parallax 0.7s infinite alternate; 
+ 
+}
+@keyframes parallax {
+   0% {
+     transform: translateY(0);
+   }
+   100% {
+     transform: translateY(10px); /* Ajustez la valeur pour l'effet parallaxe souhaité */
+   }
+ }
+ 
+ 
+.titre-specail{
+  
+   
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+ }
+ .p{
+   
+  text-align: center;
+   font-size: 18px;
+   color: #e43558;
+}
+.box-orders{
+  
+   display: grid;
+
+   grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+   flex-wrap: wrap;
+   justify-content: space-around; 
+   margin-left: 45px;
+   position: relative;
+   bottom: 260px;
+   margin-top: 0;
+  
+}
+.pastry-item {
+   border-radius: 2px;
+  
+   padding: 20px;
+   padding-top: 30px;
+  
+   width: 240px; 
+  
+   margin: 10px; 
+   box-shadow: 0 2px 5px rgb(188, 188, 255);
+ }
+ .pastry-item :hover{
+   cursor: pointer;
+ }
+ .pastry-image {
+   width: 200px; /* Ajustez la largeur en fonction de vos besoins */
+  height: 200px; /* Ajustez la hauteur en fonction de vos besoins */
+  object-fit: cover; /* Pour maintenir le rapport hauteur/largeur tout en coupant l'excès */
+ /* border-radius: ;*/
+  
+ }
+ .desc{
+   font-size: 14px;
+ }
+ .name{
+   font-family: 'Roboto Condensed', sans-serif;
+   padding: 5px ;
+ }
+
+ .star{
+   display: flex;
+   margin-left: 100px;
+   position: relative;
+   top: 10px;
+   color:rgb(255, 202, 11)
+ }
+ .btn-order{
+   
+   background-color:   #e43558;
+   color: rgb(252, 253, 255);
+   padding: 19px;
+   border-radius: 50px;
+   font-family: sans-serif;
+   font-size: 18px;
+   width: 300px;
+   box-shadow: 10px 0px 0px 0px rgb(6, 6, 71);
+   transition: background-color 0.5s ;
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+ 
+ }
+  .btn-order:hover {
+   background-color: rgb(234, 39, 78);
+}
+.box-say-left{
+   margin: 0;
+}
+.img-shape{
+   position: relative;
+   top: 650px;
+right: 500px;
+   animation: parallax 0.7s infinite alternate; 
+ 
+}
+
+ 
+@keyframes parallax {
+   0% {
+     transform: translateY(0);
+   }
+   100% {
+     transform: translateY(5px); /* Ajustez la valeur pour l'effet parallaxe souhaité */
+   }
+ }
+
+.img-girl{
+   position: relative;
+top: 280px;
+  right: 400px;
+   animation: parallax 0.7s infinite alternate; 
+
+}
+.box-say{
+   margin-left: 640px;
+   position: relative;
+   bottom: 800px;
+   margin-top: 0px;
+   
+}
+.box-say .p2{
+   font-family: sans-serif;
+   color: #e43558;
+}
+.box-say .h1{
+   font-weight: bold;
+}
+.box-say p{
+   font-size: 19px;
+   
+}
+.box-say h5{
+   font-family: sans-serif;
+   color: #e43558;
+   margin-top: 10px;
+
+}
+.box-say .stars{
+   margin-top: 10px;
+  
+  
+   color:rgb(255, 202, 11);
+   display: flex;
+}
+.box-chefs{
+ 
+   display: flex;
+   margin: 0;
+   margin-bottom: 0; 
+   margin-top: 0;
+   position: absolute;
+   bottom: -2100px;
+   cursor: pointer;
+}
+.titre-chef{
+   position: absolute;
+   bottom: -2020px;
+   left: 30px;
+   text-align: center;
+    font-size: 30px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    animation: parallax 0.4s infinite alternate; 
+    
+
+}
+.box-chefs .care-chef{
+   margin-left: 115px;
+   cursor: pointer;
+   position: relative;
+   bottom: 100px;
+ 
+}
+
+.img-chefs{
+   display: flex;
+   cursor: pointer;
+  
+}
+.img-chef{
+   width: 270px;
+   margin-left: 140px;
+  position: relative;
+   bottom: 641px;
+ 
+
+}
+footer{
+   background-color:  rgb(6, 6, 71);
+   color: aliceblue;
+   position: absolute;
+   bottom: -2800px;
+    margin-left: 10px;
+   height: 700px;
+   
+}
+.chefs-names{
+   display: flex;
+   position: relative;
+   bottom: 620px;
+  
+   
+}
+.chefs-names h2{
+margin-left: 210px;
+margin-right: 60px;
+font-family: 'Montserrat', sans-serif;
+   color: #e43558;
+   font-size: 18px;
+ 
+}
+.box-subscribe{
+
+   display: flex;
+   background-color: #e43558;
+   box-shadow: 0 2px 7px rgb(188, 188, 255);
+   width: 1000px;
+   padding: 40px;
+   margin-left: 160px;
+   justify-content: space-between;
+   position: relative;
+   bottom: 40px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 19px;
+   border-radius: 5px;
+}
+
+input[type='email'] {
+   width: 300px; 
+   padding: 5px;
+   border: none;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   border-radius:50px;
+ }
+
+ input[type='email']::placeholder {
+   color: #888; 
+   font-size: 15px;
+   padding-left: 15px;
+ }
+ .box-subscribe button{
+   
+   background-color:    rgb(252, 253, 255);
+   color: #e43558;
+   border: 1px solid #ccc;
+   border-radius: 50px;
+   font-family: sans-serif;
+   font-size: 18px;
+   width: 200px;
+   box-shadow: 10px 0px 0px 0px rgb(6, 6, 71);
+   transition: background-color 0.5s ;
+
+ }
+ .box-subscribe h1{
+   position: relative;
+   top: 10px;
+ }
+.part1{
+   display: flex;
+   margin-left: 100px;
+   margin-top:50px;
+}
+.part1 .socails{
+   margin-left: 570px;
+   display: flex;
+   margin-top: 10px;
+}
+.part1 h1{
+   font-size: 30px;
+   margin-left: 80px;
+}
+ .socail{
+   margin-right: 15px;
+   font-size: 35px;
+
+   cursor: pointer;
+ }
+ .socail :hover{
+   color:#e43558;
+}
+ .boxs{
+   margin-top: 50px;
+   justify-content: space-between;
+   display: flex;
+   margin-left: 150px;
+   cursor: pointer;
+ 
+ }
+ 
+
+.box1,.box2,.box3,.box4{
+   margin-right: 190px;
+  
+   
+}
+
+.box1,.box2,.box3,.box4, h1{
+margin-bottom: 50px;
+}
+.boxs p{
+   font-size: 18px;
+   position: relative;
+   top:  25px;
+   margin-top: 5px;
+   color: rgb(212, 208, 208);
+   
+}
+.boxs h1{
+   font-family: sans-serif;
+   font-size: 24px;
+   transition: color 0.4s;
+   
+}
+.boxs h1:hover{
+   color:#e43558;
+}
+/* Media Queries pour les petits écrans (téléphones) */
+/* Media Queries pour les petits écrans (téléphones) */
+@media only screen and (max-width: 600px) {
+   /* Ajustements pour l'image 1 */
+   #img1 {
+     margin-left: 0;
+     margin-top: 20px;
+     width: 100%; /* Remplissez la largeur de l'écran */
+     animation: none; /* Supprimez l'animation pour les téléphones */
+   }
+ 
+   /* Ajustements pour l'image 2 */
+   #img2 {
+     margin-left: 0;
+     position: static;
+     bottom: auto;
+     width: 100%; /* Remplissez la largeur de l'écran */
+     animation: none; /* Supprimez l'animation pour les téléphones */
+   }
+ 
+   /* Ajustements pour la contenu de gauche */
+   .box-left {
+     position: static;
+     bottom: auto;
+     left: 0;
+     text-align: center; /* Centrez le contenu pour les téléphones */
+     padding: 0 20px; /* Ajoutez un peu d'espace sur les côtés pour les téléphones */
+   }
+ 
+   /* Ajustements pour les titres */
+   .H1 {
+     font-size: 30px; /* Réduisez la taille de la police pour les téléphones */
+   }
+ 
+   .H3 {
+     font-size: 16px; /* Réduisez la taille de la police pour les téléphones */
+   }
+ 
+   /* Ajustements pour le bouton */
+   .btn-home {
+     margin-top: 20px; /* Ajustez l'espacement pour les téléphones */
+     width: 100%; /* Remplissez la largeur de l'écran */
+   }
+ 
+   /* Ajustements pour la section "Our Special order" */
+   .order {
+     position: static;
+     bottom: auto;
+     margin-top: 20px;
+   }
+ 
+   /* Ajustements pour la section des commandes */
+   .box-orders {
+     margin-left: 0;
+     position: static;
+     bottom: auto;
+     margin-top: 20px;
+   }
+ 
+   .box-say {
+    
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+ 
+  
+    .img-girl {
+      order: 2; /* Change l'ordre de l'image */
+    }
+   /* Ajustements pour la section des chefs */
+   .titre-chef {
+     position: static;
+     bottom: auto;
+     left: 0;
+     margin-top: 20px;
+     text-align: center;
+   }
+ 
+   .box-chefs {
+     position: static;
+     bottom: auto;
+     margin-top: 20px;
+     flex-direction: column; /* Changez la direction de la flexbox pour les téléphones */
+   }
+ 
+   .box-chefs .care-chef {
+     margin-left: 0;
+     margin-bottom: 10px; /* Ajoutez de l'espace entre les images pour les téléphones */
+   }
+ 
+   .img-chef {
+     width: 100%;
+     margin-left: 0;
+     margin-bottom: 10px; /* Ajoutez de l'espace entre les images pour les téléphones */
+   }
+ 
+   .chefs-names {
+     position: static;
+     bottom: auto;
+     margin-top: 20px;
+   }
+ 
+   /* Ajustements pour le pied de page */
+   footer {
+     position: static;
+     bottom: auto;
+     margin-top: 20px;
+     height: auto;
+   }
+ 
+   /* Ajustements pour la section d'inscription et les réseaux sociaux */
+   .box-subscribe,
+   .part1,
+   .boxs {
+     flex-direction: column; /* Changez la direction de la flexbox pour les téléphones */
+     margin-left: 0;
+     margin-top: 20px;
+   }
+ 
+   input[type='email'] {
+     width: 100%; /* Remplissez la largeur de l'écran */
+     margin-bottom: 10px; /* Ajoutez de l'espace entre les éléments pour les téléphones */
+   }
+ 
+   .socails {
+     margin-left: 0;
+     margin-bottom: 10px; /* Ajoutez de l'espace entre les éléments pour les téléphones */
+   }
+ 
+   .box1,
+   .box2,
+   .box3,
+   .box4 {
+     margin-right: 0;
+     margin-bottom: 20px; /* Ajoutez de l'espace entre les éléments pour les téléphones */
+   }
+ 
+   .boxs h1 {
+     font-size: 20px; /* Réduisez la taille de la police pour les téléphones */
+   }
+
+}

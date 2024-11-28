@@ -1,0 +1,2 @@
+khassni wahd lpartiya deyal lifecycle(mouting+unmouting+updating...)
+purecomponent vs regularcomponent
